@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://aitoolslatest.site/sitemap.xml
 
+Sitemap: https://aitoolslatest.site/sitemap.xml
