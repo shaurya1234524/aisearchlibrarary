@@ -13,6 +13,8 @@ from django.views.generic import ListView, DetailView
 # ---------------------------
 # Submit a Tool
 # ---------------------------
+def indexnow(request):
+    return render(request,"9f4a2c1e8b7d6f3a2e1b4c9d0f6a7b8c.txt")
 def submit_tool(request):
     if request.method == 'POST':
         form = ToolForm(request.POST, request.FILES)
@@ -268,3 +270,4 @@ def sitemap(request):
     return render(request,"sitemap.xml")
 def robots(request):
     return render(request,"robots.txt")
+
