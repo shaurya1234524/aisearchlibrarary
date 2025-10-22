@@ -24,9 +24,11 @@ path('admin/',admin.site.urls),
       path('privacy_policy/',privacy_policy,name='privacy_policy'),
       path('terms_of_service/',terms_of_Service,name='terms_of_service'),
        path('cookie-policy/', views.cookie_policy, name='cookie_policy'),
+        path('9f4a2c1e8b7d6f3a2e1b4c9d0f6a7b8c.txt/',views.indexnow,name="indexnow"),
 ]
 
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
 
