@@ -66,7 +66,7 @@ CATEGORY_CHOICES = (
 class Tool(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
-    image = models.ImageField(upload_to='tool_images/', blank=True, null=True)
+    image = models.ImageField(upload_to='shaurya1234512', blank=True, null=True)
     category = models.CharField(max_length=50, choices=CATEGORY_CHOICES, default='AI Tools')  # ✅ like pricing
     tags = models.CharField(max_length=200, blank=True)  
     pricing = models.CharField(max_length=10, choices=PRICING_CHOICES, default='Free')
@@ -77,3 +77,4 @@ class Tool(models.Model):
 
     def __str__(self):
         return self.name
+
